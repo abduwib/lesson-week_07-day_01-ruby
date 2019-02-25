@@ -11,6 +11,7 @@
 ```
 ```text
 Your answer.
+8
 ```
 
 ```rb
@@ -18,6 +19,7 @@ Your answer.
 ```
 ```text
 Your answer.
+144
 ```
 
 ```rb
@@ -25,6 +27,7 @@ Your answer.
 ```
 ```text
 Your answer.
+a millia millia millia millia millia milli
 ```
 
 ```rb
@@ -32,6 +35,8 @@ Your answer.
 ```
 ```text
 Your answer.
+error
+
 ```
 
 ```rb
@@ -40,11 +45,13 @@ puts "My favorite number is: " + my_favorite_number
 ```
 ```text
 Your answer.
+error
 ```
 
 ```rb
 my_favorite_number = 13
 puts "My favorite number is: #{my_favorite_number}"
+My favorite number is 13
 ```
 ```text
 Your answer.
@@ -55,14 +62,14 @@ Your answer.
 #### Which of these evaluate as `false` in Ruby? Mark all that apply.
 
 ```text
-[ ] false
-[ ] 0
-[ ] ""
-[ ] null
-[ ] [ ] (empty array)
-[ ] undefined
-[ ] NaN
-[ ] nil
+[y] false
+[y] 0
+[n] ""
+[n] null
+[n] [ ] (empty array)
+[n] undefined
+[n] NaN
+[n] nil
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
@@ -79,6 +86,7 @@ end
 ```
 ```text
 Your answer.
+My name is 
 ```
 
 ```rb
@@ -89,6 +97,7 @@ end
 ```
 ```text
 Your answer.
+error
 ```
 
 ```rb
@@ -99,6 +108,7 @@ end
 ```
 ```text
 Your answer.
+error
 ```
 
 ```rb
@@ -109,6 +119,7 @@ end
 ```
 ```text
 Your answer.
+My age is 
 ```
 
 ### Conditionals
@@ -136,7 +147,20 @@ Your output should look something like this...
   ```rb
   i = 1
   while i <= 100
-    # Your code goes in here.
+    
+    if i % 3 == 0 
+    str = str + "fizz"
+    end
+
+    if i % 5 == 0 
+    str = str + "buzz"
+    elsif
+    i % 3 && i % 5
+    str = str + i.to_s
+    end
+    str+= ", "
+    i=i+1
+
   end
   ```
 
