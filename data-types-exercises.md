@@ -142,7 +142,7 @@ Your output should look something like this...
 ```
 
 <details>
-  <summary><strong>We haven't covered loops yet, so to get you started...</strong></summary>
+  <summary><strong>My Answer</strong></summary>
 
   ```rb
   i = 1

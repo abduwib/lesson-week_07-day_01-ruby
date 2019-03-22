@@ -89,7 +89,7 @@ ninja_turtle[:pizza_toppings]=["cheese", "pepperoni", "peppers"]
 Access the first element of `pizza_toppings`.
 
 ```rb
-
+$pizza_toppings[0]
 ```
 
 Produce an array containing all of `ninja_turtle`'s keys using a method. [The Ruby documentation might help](http://ruby-doc.org/core-1.9.3/Hash.html).
