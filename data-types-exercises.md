@@ -51,10 +51,11 @@ error
 ```rb
 my_favorite_number = 13
 puts "My favorite number is: #{my_favorite_number}"
-My favorite number is 13
+
 ```
 ```text
 Your answer.
+My favorite number is 13
 ```
 
 ### Truthiness and Falsiness
